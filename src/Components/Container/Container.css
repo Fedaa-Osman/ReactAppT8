@@ -1,0 +1,102 @@
+.section {
+    display: flex;
+    padding: 40px 0;
+}
+
+.left-column {
+    background-image: url(../../assets/images/1.jpg);
+    width: 50%;
+    padding: 2rem;
+}
+
+.on-l-pic {
+    margin-top: 160px;
+    margin-left: 65px;
+    line-height: 60px;
+    color: white;
+}
+
+.on-l-pic:hover {
+    color: dodgerblue;
+}
+
+button {
+    color: white;
+    width: 140px;
+    height: 50px;
+    background: transparent;
+    border-color: white;
+    cursor: pointer;
+}
+
+.right-column {
+    margin-left: 2rem;
+    width: 50%;
+
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.women {
+    background-image: url(../../assets/images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2rem;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 265px;
+}
+
+.men {
+    background-image: url(../../assets/images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 265px;
+}
+
+.access {
+    background-image: url(../../assets/images/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 265px;
+}
+
+.kids {
+    background-image: url(../../assets/images/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding: 2rem;
+    padding-top: 8rem;
+    height: 265px;
+}
+
+.on-r-pic {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.on-r-pic:hover {
+    color: dodgerblue;
+    transform: scale(1.1);
+}

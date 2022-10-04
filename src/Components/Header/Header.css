@@ -1,0 +1,44 @@
+.header {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    width: 150px;
+}
+
+.header .links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.header .links ul li a {
+    padding: 20px 10px;
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.header .links ul li a:hover {
+    color: dodgerblue;
+    text-decoration: underline;
+}
+
+.header .links ul li a.active {
+    color: rgb(156, 156, 156);
+}
